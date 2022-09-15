@@ -10,17 +10,14 @@ html {
 
 body {
     font-size: 18px;
-}
-
-h1, h2, p {
     font-family: 'Roboto', serif;
+
 }
 
 #selfie {
     max-width: 50%;
     border-radius: 10%;
 }
-
 
 header, footer {
     padding: 1em;
@@ -30,10 +27,17 @@ header h1 {
     font-size: 3em;
     margin: 0;
     border-bottom: 5px solid black;
+    font-family: 'Proza Libre', serif;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h1 {
     margin-bottom: 1em;
+}
+
+section {
+    padding: 5em;
 }
 
 @media screen and (max-width: 680px) {
@@ -54,19 +58,6 @@ h1 {
     }
 }
 
-section {
-    padding: 5em;
-}
-
-
-header {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-header h1 {
-    font-family: 'Proza Libre', serif;
-}
 
 ul {
     list-style: none;
@@ -99,17 +90,11 @@ section#experience {
     flex-grow: 2;
 }
 
-section#experience h2 {
-    font-size: 1em;
-}
-
-
-#github {
+.tcenter {
     text-align: center;
 }
 
 footer {
-    text-align: center;
     background-color: #ededed;
 }
 
@@ -117,11 +102,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    text-align: center;
 }
 
 #showcase {
-    text-align: center;
     background: #80cbc4;
 }
 
