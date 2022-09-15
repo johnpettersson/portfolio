@@ -6,59 +6,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Pettersson Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Proza+Libre&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <h1>John Pettersson</h1>
     </header>
-    <section>
-        <h1>Om John</h1>
-        <p>Tjohej! Jag är en 28 bast gammal grabb från de småländska skogarna.</p>
-        <p>Sen jag gick ut ur gymnasiet 2013 har jag i perioder sysslat med programmering på fritiden.</p>
-        <p>Yrkeslivet har spenderats främst på olika lager runtom i bygden. Nu senast på Power där jag arbetade som
-            transportplanerare.</p>
+    <section id="about">
+        <div>
+            <h1>Välkommen till min portfolio! </h1>
+            <p>Jag är en 28 bast gammal grabb från de småländska skogarna.</p>
+            <p>Sen jag gick ut ur gymnasiet 2013 har jag i perioder sysslat med programmering på fritiden.</p>
+            <p>Yrkeslivet har spenderats främst på olika lager runtom i bygden. Nu senast på Power där jag arbetade som
+                transportplanerare.</p>
+            <p>Sedan Augusti 2022 studerar jag en utbildning i webbutveckling.</p>
+        </div>
+        <div ><img id="selfie" src="john_small.jpg" alt=""></div>
+    </section>
+    <div class="flex">
+        <section id="skills">
+            <h1>Kunskaper</h1>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>C#</li>
+            </ul>
+        </section>
 
-        <img src="john_small.jpg" alt="">
+        <section id="experience">
+            <h1>Arbetslivserfarenhet</h1>
+            <ul id="ul-cv">
+                <li>
+                    <h2>2021-2022</h2>
+                    <p>Transportplanerare Power Skillingaryd</p>
+                </li>
+                <li>
+                    <h2>2019-2021</h2>
+                    <p>Truckförare Elgiganten Torsvik</p>
+                </li>
+                <li>
+                    <h2>2015-2017</h2>
+                    <p>Lagerarbetare IKEA Torsvik</p>
+                </li>
+                <lI>
+                    <h2>2013-2015</h2>
+                    <p>Orderplockare Rusta Nässjö</p>
+                </lI>
+            </ul>
+        </section>
+    </div>
+
+    <section id="github">
+        <h1>Github <img src="github.png" alt="" style="vertical-align: middle; width: 32px;"></h1>
+        <p>Här hittar du min github: <a href="http://github.com/johnpettersson"
+                target="_blank">github.com/johnpettersson</a></p>
     </section>
 
-    <section>
-        <h1>Kunskaper</h1>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>C#</li>
-        </ul>
+    <section id="showcase">
+        <h1>Projekt</h1>
+        <p>Här kommer det fyllas på med projekt under utbildningens gång.</p>
+        <p>Just nu är det ganska tomt...</p>
+        <img src="tumbleweed.gif" alt="">
     </section>
-
-    <section>
-        <h1>Arbetslivserfarenhet</h1>
-        <ul>
-            <li>
-                <h2>2021-2022</h2>
-                <p>Transportplanerare Power Skillingaryd</p>
-            </li>
-            <li>
-                <h2>2019-2021</h2>
-                <p>Truckförare Elgiganten Torsvik</p>
-            </li>
-            <li>
-                <h2>2015-2017</h2>
-                <p>Lagerarbetare IKEA Torsvik</p>
-            </li>
-            <lI>
-                <h2>2013-2015</h2>
-                <p>Orderplockare Rusta Nässjö</p>
-            </lI>
-        </ul>
-    </section>
-
-    <section>
-        <h1>Github</h1>
-        <p>Här hittar du Johns github: <a href="http://github.com/johnpettersson" target="_blank">github.com/johnpettersson</a></p>
-    </section>
-    <footer>&copy; John Pettersson 2022</footer>
+    <footer>&copy; John Pettersson 2022 <a href="#top">&#11014;</a></footer>
 </body>
 
 </html>

@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 18px;
+}
+
+h1, h2, p {
+    font-family: 'Roboto', serif;
+}
+
+#selfie {
+    max-width: 50%;
+    border-radius: 10%;
+}
+
+
+header, footer {
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    border-bottom: 5px solid black;
+}
+
+h1 {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 680px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 1em !important;
+    }
+    .flex {
+        display: block !important;
+    }
+}
+
+section {
+    padding: 5em;
+}
+
+
+header {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header h1 {
+    font-family: 'Proza Libre', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+section#about {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #80cbc4;
+}
+
+section#about p{
+    margin: 1em 0;
+    text-align: left;
+    max-width: 50ch;
+}
+
+
+section#skills {
+    background: #b6d981;
+    flex-grow: 1;
+}
+
+
+section#experience {
+    background: #4682b4;
+    flex-grow: 2;
+}
+
+section#experience h2 {
+    font-size: 1em;
+}
+
+
+#github {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #ededed;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+#showcase {
+    text-align: center;
+    background: #80cbc4;
+}
+
+#showcase p {
+    margin-bottom: 1em;
+}
