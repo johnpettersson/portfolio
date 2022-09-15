@@ -11,7 +11,9 @@ html {
 body {
     font-size: 18px;
     font-family: 'Roboto', serif;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #selfie {
@@ -20,6 +22,8 @@ body {
 }
 
 header, footer {
+    flex-grow: 1;
+    flex-basis: 100%;
     padding: 1em;
 }
 
@@ -41,9 +45,9 @@ section {
 }
 
 @media screen and (max-width: 680px) {
-
     body {
         font-size: 16px;
+        flex-direction: column;
     }
 
     header h1 {
@@ -53,9 +57,6 @@ section {
     section {
         padding: 1em !important;
     }
-    .flex {
-        display: block !important;
-    }
 }
 
 
@@ -64,6 +65,7 @@ ul {
 }
 
 section#about {
+    flex-basis: 100%;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -106,6 +108,7 @@ footer {
 
 #showcase {
     background: #80cbc4;
+    flex-basis: 100%;
 }
 
 #showcase p {
